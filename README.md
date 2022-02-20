@@ -114,7 +114,7 @@
 
 ### Windows
 #### 安装服务端代理
-1、双击Win服务端代理一键安装脚本.bat
+1、双击Windows_Server_Run.bat
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="800"/>
@@ -136,7 +136,7 @@
 </h1>
 
 #### 安装客户端代理
-1、双击Win客户端端代理一键安装脚本.bat
+1、双击Windows_Client_Run.bat
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="800"/>
