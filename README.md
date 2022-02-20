@@ -94,6 +94,9 @@ Windows 双击运行即可
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/Web%E7%95%8C%E9%9D%A2.jpg" width="800"/>
 </h1>
 
+### 开发者费用
+0.25%
+
 ## :hammer_and_wrench: 运行
 ### Windows
 在对应的机器商双击运行以下脚本(脚本比较简陋，后续完善)，按照提示运行：
