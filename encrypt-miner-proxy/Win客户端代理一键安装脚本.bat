@@ -1,11 +1,11 @@
 @echo off
-title encrypt-miner-proxy Windows Client
+title encrypt-miner-proxy window client
 mode con cols=70 lines=12
 color fc
 echo **********************************************************************
 echo   请先下载转发主程序https://github.com/ryu0007/EncryptMinerProxy
 echo   本脚本仅支持encrypt-miner-proxy_windows_amd64.exe
-echo   本脚本需配合服务端代理主程序运行，请将脚本与主程序放在同一文件夹下
+echo   本脚本需配合客户端代理主程序运行，请将脚本与主程序放在同一文件夹下
 echo   登录地址(本地)-http://127.0.0.1:19999/proxy/client/login
 echo   登录地址(外网)-http://{公网IP}:19999/proxy/client/login
 echo   用户名-ryu
@@ -19,10 +19,6 @@ pause
 mode con cols=80 lines=20
 color 1E
 :first
-echo              登录地址(本地)-http://127.0.0.1:19999/proxy/client/login
-echo              登录地址(外网)-http://{公网IP}:19999/proxy/client/login
-echo              用户名-ryu
-echo              密码-https://github.com/ryu0007/EncryptMinerProxy
 echo             =====================================
 echo                     按1选择启动客户端代理
 echo             -------------------------------------
@@ -38,16 +34,14 @@ echo 无效的选择,请重试
 goto first
 
 :start
-echo 正在启动代理
-:设定运行目录为当前文件所在的文件夹
+echo 客户端代理开启的是19999端口，记得开放服务器安全组
+echo WEB地址，外网-http://{公网IP}:19999/proxy/client/login
+echo WEB地址，内网-http://127.0.0.1:19999/proxy/client/login
+echo 用户名：ryu
+echo 密码：https://github.com/ryu0007/EncryptMinerProxy
+echo 请您及时修改用户名和密码，防止别人登入
+echo 正在启动客户端端代理
 encrypt-miner-proxy_windows_amd64.exe -client
-echo 执行结束，请登录输入地址，登入WEB：http://{公网IP}:19999/proxy/client/login
-pause
-goto EXIT
-
-echo 按任意键退出安装程序
-pause
-goto EXIT
 
 :exit
 exit
