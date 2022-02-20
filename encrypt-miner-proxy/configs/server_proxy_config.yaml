@@ -1,0 +1,79 @@
+!!com.ryu.encrypt.miner.proxy.server.model.userconf.ServerProxyConfig
+confuse: 9r0Omq7KFoS7oEc5rvqTiA==
+enableServerProxy: []
+mode: EW/4By3wLrF16VbzXXpaCw==
+secretKey: ZwRnM9c7JdXzLX4+yVSYIzfTtmLrhVPkR/I0UhOw3cIuBjl0m6VBnUAetf56rDqu
+serverProxy:
+- coin: uwS28/G/wCoKcT59ovE6BA==
+  devFee: hydxKcjs75Rif/WIMhXAIg==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  devPoolHost: null
+  devPoolPort: null
+  devWallet: cALkv9jbNLBc6EcdnghmkwyLIrAwufLp+eUka1T2nCAaxLw+xt36BeEdYuo17DWh
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: g49MCNUl8k1Z1eFCtqkgHA==
+  localPortAlias: UoljFfPuYySTtBDZ6OMBFQ==
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: ZnqDb+kEFVIdkaIKEbBukbcmCxno+/FHxYciJap1wUg8tPnSYUgNW4+i+jQ7fINu
+  poolServerHost: null
+  poolServerPort: null
+- coin: uwS28/G/wCoKcT59ovE6BA==
+  devFee: hydxKcjs75Rif/WIMhXAIg==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  devPoolHost: null
+  devPoolPort: null
+  devWallet: cALkv9jbNLBc6EcdnghmkwyLIrAwufLp+eUka1T2nCAaxLw+xt36BeEdYuo17DWh
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: jV5TcTZiySG/0uUaLP1HAg==
+  localPortAlias: KDMKPd+NGSM+/PzGjmnkQnqHDFeIcA+V8u8hEcJF708=
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  poolServerHost: null
+  poolServerPort: null
+- coin: uwS28/G/wCoKcT59ovE6BA==
+  devFee: hydxKcjs75Rif/WIMhXAIg==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  devPoolHost: null
+  devPoolPort: null
+  devWallet: cALkv9jbNLBc6EcdnghmkwyLIrAwufLp+eUka1T2nCAaxLw+xt36BeEdYuo17DWh
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: TZBo1lgeenyUln+daKXt5Q==
+  localPortAlias: ohDKBYkcZ7qDwpk0qBybYg==
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: ZnqDb+kEFVIdkaIKEbBukYth2j+vux4HDaE2gKP53UzEjUBBmHeIsBnEE52KOwcI
+  poolServerHost: null
+  poolServerPort: null
+- coin: uwS28/G/wCoKcT59ovE6BA==
+  devFee: hydxKcjs75Rif/WIMhXAIg==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  devPoolHost: null
+  devPoolPort: null
+  devWallet: cALkv9jbNLBc6EcdnghmkwyLIrAwufLp+eUka1T2nCAaxLw+xt36BeEdYuo17DWh
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: 3gbcUg4JJjkirLYTuzcbrQ==
+  localPortAlias: iEa5/HcDc2tNVDznUZhSZQ==
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: mUzAWIKdbBpL+tAYGN89eEfGWjVR6HlFZOX70dMgv6nO7qT8lN29r3uLVkTb4Vr2
+  poolServerHost: null
+  poolServerPort: null
+- coin: uwS28/G/wCoKcT59ovE6BA==
+  devFee: hydxKcjs75Rif/WIMhXAIg==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPf0FrABkcfuiLyCbw8A5uQ3+Q6gGPVxV781aTri6tSl5
+  devPoolHost: null
+  devPoolPort: null
+  devWallet: cALkv9jbNLBc6EcdnghmkwyLIrAwufLp+eUka1T2nCAaxLw+xt36BeEdYuo17DWh
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: pKaDke/gMBSVpCebX1UITw==
+  localPortAlias: UWz5NdpXJYlBa/l07xaZISvddec+47czT4Y+g9FtMhk=
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: ZnqDb+kEFVIdkaIKEbBukaQLUm4IHeIXmaslCq0RGSSVWa9D/Y3jXmIht8YXPmev
+  poolServerHost: null
+  poolServerPort: null
+version: GUDIMZIq/nKjX0/wepWOsA==
+webLoginName: KHA4GWCGcFXfjnlWkDrEpQ==
+webPassword: za2Z6vD5+UT/JUDGfZAwl5PLXmmtf/2+JAR8VAsQnSw3DDjcxeSGhzSGWPk+0RBu
