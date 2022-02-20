@@ -67,43 +67,68 @@
 
 ## 加解密报文
 ### 蜜罐平头哥客户端加密混淆
-Windows 双击运行即可
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥服务端解密转发
-Windows 双击运行即可
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-客户端
-Windows 双击运行即可
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/Web%E7%95%8C%E9%9D%A2-%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-服务端
-Windows 双击运行即可
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/Web%E7%95%8C%E9%9D%A2.jpg" width="800"/>
 </h1>
 
-### 开发者费用
+## 部署模式解释
+如果使用部署模式1：该模式矿机直连服务端代理，无需客户端代理
+矿机->运营商->服务端代理->矿池
+
+如果使用部署模式2：该模式每台矿机上安装客户端代理，然后矿机连客户端代理
+矿机->客户端代理(单独)->运营商->服务端代理->矿池
+
+如果使用部署模式3：该模式在本地局域网随便找一台机器，然后运行客户端代理，局域网上所有机器连这台安装了客户端代理的机器，然后客户端代理连服务端代理
+矿机->客户端代理(聚合)->运营商->服务端代理->矿池
+
+## 开发者费用
 0.25%
 
 ## :hammer_and_wrench: 运行
+
 ### Windows
 在对应的机器商双击运行以下脚本(脚本比较简陋，后续完善)，按照提示运行：
+#### 安装服务端代理
+1、双击Win服务端代理一键安装脚本.bat
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
+</h1>
+
+#### 安装客户端代理
+
 
 Win服务端代理一键安装脚本.bat
 
+
 Win客户端代理一键安装脚本.bat
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
+</h1>
 
 ### Linux
 还未编译Linux版本，待编译之后补充
