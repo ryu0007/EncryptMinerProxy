@@ -10,12 +10,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://t.me/+Q0u6PCLXZoZhMjRl">Telegram 群</a> •
-  <a href="https://jq.qq.com/?_wv=1027&k=6Hkn0cla">QQ 群</a> 
-</p>
-
-
 ## :sparkles: 特性
 
 - 💾 安全稳定：客户端服务端模式(也可单独服务端模式)，加密混淆
@@ -198,8 +192,25 @@
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="800"/>
 </h1>
 
-
+## 联系方式
+### 链接打开
+<p align="center">
+  <a href="https://t.me/+Q0u6PCLXZoZhMjRl">Telegram 群</a> •
+  <a href="https://jq.qq.com/?_wv=1027&k=6Hkn0cla">QQ 群</a> 
+</p>
+### 扫码
+QQ群：
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="800"/>
+</h1>
+TG：https://t.me/+Q0u6PCLXZoZhMjRl
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="800"/>
+</h1>
 
 ## 其他说明
-待补充
+
+1、使用gitHub的DownLoad Zip或者gitee的下载压缩包功能下载的包，双击bat文件会报错，估计是网站在打zip包的时候对bat做了啥处理，使用正常的git clone下载无任何问题，请下载release版本，如果有问题请加群获取正确的bat文件，或者使用git clone下载bat文件
 
