@@ -40,7 +40,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%99%AE%E9%80%9A%E4%BB%A3%E7%90%86%E6%96%B9%E6%A1%88.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%99%AE%E9%80%9A%E4%BB%A3%E7%90%86%E6%96%B9%E6%A1%88.jpg" width="600"/>
 </h1>
 
 ## 蜜罐平头哥部署模式
@@ -48,21 +48,21 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%881.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%881.jpg" width="600"/>
 </h1>
 
 ### 部署方案2
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%882.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%882.jpg" width="600"/>
 </h1>
 
 ### 部署方案3
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%883.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%883.jpg" width="600"/>
 </h1>
 
 
@@ -71,28 +71,28 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="600"/>
 </h1>
 
 ### 蜜罐平头哥服务端解密转发
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="600"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-客户端
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2-%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2-%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg" width="600"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-服务端
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2.jpg" width="600"/>
 </h1>
 
 ## 部署模式解释
@@ -118,71 +118,71 @@
 1、双击Windows_Server_Run.bat
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
 2、弹出对话框，按任意键
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
 </h1>
 3、输入1，记下登录url、用户名、密码
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
 </h1>
 4、浏览器输入url登入
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
 </h1>
 
 #### 安装客户端代理
 1、双击Windows_Client_Run.bat
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
 2、弹出对话框，按任意键
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
 </h1>
 3、输入1，记下登录url、用户名、密码
 <h1 align="center">
   <br>
-  <img src="https://github.com/ryu0007/EncryptMinerProxy/blob/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="350"/>
+  <img src="https://github.com/ryu0007/EncryptMinerProxy/blob/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
 </h1>
 4、浏览器输入url登入
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
 </h1>
 
 ### Linux
 1、切换root用户
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
 2、确保在程序所在目录，用ll命令查看文件
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
 </h1>
 3、给脚本777权限
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
 </h1>
 4、运行脚本-./Linux_Server_Run.sh
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
 </h1>
 5、输入url登入
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A45.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A45.jpg" width="600"/>
 </h1>
 
 #### 安装客户端代理
@@ -191,12 +191,12 @@
 4、运行脚本-./Linux_Client_Run.sh
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
 5、输入url登入
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
 </h1>
 
 ## 联系方式
