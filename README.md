@@ -207,7 +207,12 @@
 </h1>
 解答：缺少必要的windwos运行库，参照这个贴在解决https://zhuanlan.zhihu.com/p/102535551
 
-
+## 蜜罐代理软件性能
+下图是服务器连续跑了2天2夜，一共连接这100多个矿工的情况下占用的资源情况：
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Win%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%80%A7%E8%83%BD.jpg" width="600"/>
+</h1>
 
 ## 联系方式
 ### 链接打开
