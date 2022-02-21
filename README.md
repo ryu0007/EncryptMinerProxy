@@ -10,6 +10,13 @@
   </a>
 </p>
 
+
+## 平头哥Logo
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%9C%9C%E7%BD%90.jpg" width="800"/>
+</h1>
+
 ## :sparkles: 特性
 
 - 💾 安全稳定：客户端服务端模式(也可单独服务端模式)，加密混淆
@@ -202,13 +209,14 @@
 QQ群：
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="800"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%9C%9C%E7%8D%BE%E4%BB%A3%E7%90%86%E5%AE%98%E6%96%B9%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="800"/>
 </h1>
 TG：https://t.me/+Q0u6PCLXZoZhMjRl
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="800"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/TG.png" width="800"/>
 </h1>
+
 
 ## 其他说明
 
