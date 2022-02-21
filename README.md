@@ -199,6 +199,17 @@
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
 </h1>
 
+## 安装问题
+### 问题1
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+</h1>
+
+解答：缺少必要的windwos运行库，参照这个贴在解决https://zhuanlan.zhihu.com/p/102535551
+
+
+
 ## 联系方式
 ### 链接打开
 <p align="center">
@@ -217,6 +228,8 @@ TG：https://t.me/+Q0u6PCLXZoZhMjRl
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/TG.png" width="350"/>
 </h1>
 
+
+https://zhuanlan.zhihu.com/p/102535551
 
 ## 其他说明
 
