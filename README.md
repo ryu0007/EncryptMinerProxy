@@ -203,9 +203,8 @@
 ### 问题1
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="350"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Windows%E9%97%AE%E9%A2%981.jpg" width="600"/>
 </h1>
-
 解答：缺少必要的windwos运行库，参照这个贴在解决https://zhuanlan.zhihu.com/p/102535551
 
 
