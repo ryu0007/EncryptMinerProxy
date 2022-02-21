@@ -14,7 +14,7 @@
 ## 平头哥Logo
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%9C%9C%E7%BD%90.jpg" width="800"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%9C%9C%E7%BD%90.jpg" width="100"/>
 </h1>
 
 ## :sparkles: 特性
