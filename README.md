@@ -36,33 +36,33 @@
 </h1>
 知道原理了，那么可以针对该原理，使用自定义加密的算法，并且对数据进行混淆操作，甚至模拟访问正常网页访问，尽可能抹去特征，这样运营商就无法识别。
 
-## 普通代理方案
-
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%99%AE%E9%80%9A%E4%BB%A3%E7%90%86%E6%96%B9%E6%A1%88.jpg" width="600"/>
-</h1>
-
 ## 蜜罐平头哥部署模式
 ### 部署方案1-同普通代理方案
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%881.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%881.jpg" width="800"/>
 </h1>
 
 ### 部署方案2
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%882.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%882.jpg" width="800"/>
 </h1>
 
 ### 部署方案3
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%883.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%883.jpg" width="800"/>
+</h1>
+
+### 部署方案4
+
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%884.jpg" width="800"/>
 </h1>
 
 
@@ -71,28 +71,28 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8A%A0%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥服务端解密转发
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%A7%A3%E5%AF%86%E6%95%B0%E6%8D%AE.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-客户端
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2-%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2-%E5%AE%A2%E6%88%B7%E7%AB%AF.jpg" width="800"/>
 </h1>
 
 ### 蜜罐平头哥WEB界面-服务端
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Web%E7%95%8C%E9%9D%A2.jpg" width="800"/>
 </h1>
 
 ## 部署模式解释
@@ -205,7 +205,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Windows%E9%97%AE%E9%A2%981.jpg" width="600"/>
 </h1>
-解答：缺少必要的windwos运行库，参照这个贴在解决https://zhuanlan.zhihu.com/p/102535551
+解答：缺少必要的windwos运行库，参照这个贴解决https://zhuanlan.zhihu.com/p/102535551
 
 ## 蜜罐代理软件性能
 下图是服务器连续跑了2天2夜，一共连接这100多个矿工的情况下占用的资源情况：
@@ -233,9 +233,8 @@ TG：https://t.me/+Q0u6PCLXZoZhMjRl
 </h1>
 
 
-https://zhuanlan.zhihu.com/p/102535551
 
 ## 其他说明
 
-1、使用gitHub的DownLoad Zip或者gitee的下载压缩包功能下载的包，双击bat文件会报错，估计是网站在打zip包的时候对bat做了啥处理，使用正常的git clone下载无任何问题，请下载release版本，如果有问题请加群获取正确的bat文件，或者使用git clone下载bat文件
+1、使用gitHub的DownLoad ZIP或者gitee的下载压缩包功能下载的包，双击bat文件会报错，估计是网站在打zip包的时候对bat做了啥处理，使用正常的git clone下载无任何问题，请下载release版本，如果有问题请加群获取正确的bat文件，或者使用git clone下载bat文件
 
