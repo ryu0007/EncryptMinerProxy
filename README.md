@@ -17,6 +17,11 @@
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%9C%9C%E7%BD%90.jpg" width="350"/>
 </h1>
 
+## 视频教程
+[简介](http://f2poolbackup.xyz/index.php/2022/03/13/%e8%9c%9c%e7%bd%90%e4%bb%a3%e7%90%86%e4%b8%ad%e8%bd%ac%e4%bb%8b%e7%bb%8d/)
+
+[视频教程](http://f2poolbackup.xyz/index.php/2022/03/12/%e8%9c%9c%e7%bd%90%e4%bb%a3%e7%90%86%e7%9b%b8%e5%85%b3%e6%95%99%e7%a8%8b/)
+
 ## :sparkles: 特性
 
 - 💾 安全稳定：客户端服务端模式(也可单独服务端模式)，加密混淆
