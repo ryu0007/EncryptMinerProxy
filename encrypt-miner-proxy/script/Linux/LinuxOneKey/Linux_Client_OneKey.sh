@@ -190,7 +190,7 @@ check_limit(){
 }
 
 echo "======================================================="
-echo "蜜罐代理服务端Linux一键安装脚本"
+echo "蜜罐代理客户端Linux一键安装脚本"
 echo "  1、安装(默认安装到/root/encrypt_miner_proxy)"
 echo "  2、卸载"
 echo "  3、更新"
