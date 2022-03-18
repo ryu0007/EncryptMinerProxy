@@ -3,10 +3,10 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-v1.0.0-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-v2.0.2-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_02_17-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_03_18-orgin.svg" alt="travis">
   </a>
 </p>
 
@@ -122,87 +122,109 @@
 
 ## :hammer_and_wrench: 运行
 
-### Windows
+### Windows一键安装脚本
+
 #### 安装服务端代理
-1、双击Windows_Server_Run.bat
+1、双击Windows_Server_Run.bat，弹出对话框，按任意键
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
-2、弹出对话框，按任意键
+
+2、根据提示安装程序
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%BF%90%E8%A1%8CWindows%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
 </h1>
-3、输入1，记下登录url、用户名、密码
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
-</h1>
-4、浏览器输入url登入
+
+3、浏览器输入url登入
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
 </h1>
 
 #### 安装客户端代理
-1、双击Windows_Client_Run.bat
+1、双击Windows_Client_Run.bat，弹出对话框，按任意键
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
-2、弹出对话框，按任意键
+
+2、根据提示安装程序
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%BF%90%E8%A1%8CWindows%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
 </h1>
-3、输入1，记下登录url、用户名、密码
-<h1 align="center">
-  <br>
-  <img src="https://github.com/ryu0007/EncryptMinerProxy/blob/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
-</h1>
-4、浏览器输入url登入
+
+3、浏览器输入url登入
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
 </h1>
 
-### Linux
+### Linux一键脚本
+#### 安装服务端代理
 1、切换root用户
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
-2、确保在程序所在目录，用ll命令查看文件
+
+2、下载服务端一键脚本
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E4%B8%8B%E8%BD%BDLinux%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
 </h1>
-3、给脚本777权限
+
+```bash
+wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/script/Linux/LinuxOneKey/Linux_Server_OneKey.sh
+```
+
+3、执行服务端一键脚本
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A43.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%BF%90%E8%A1%8CLinux%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
 </h1>
-4、运行脚本-./Linux_Server_Run.sh
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A44.jpg" width="600"/>
-</h1>
-5、输入url登入
+
+```bash
+bash Linux_Server_OneKey.sh
+```
+
+4、输入url登入
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A45.jpg" width="600"/>
 </h1>
 
 #### 安装客户端代理
-1、2、3步骤同服务端
-
-4、运行脚本-./Linux_Client_Run.sh
+1、切换root用户
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
 </h1>
-5、输入url登入
+
+2、下载客户端一键脚本
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E4%B8%8B%E8%BD%BDLinux%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
+</h1>
+
+```bash
+wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/script/Linux/LinuxOneKey/Linux_Client_OneKey.sh
+```
+
+3、执行客户端一键脚本
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E8%BF%90%E8%A1%8CLinux%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC.jpg" width="600"/>
+</h1>
+
+```bash
+bash Linux_Client_OneKey.sh
+```
+
+
+4、输入url登入
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/Linux_%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A42.jpg" width="600"/>
