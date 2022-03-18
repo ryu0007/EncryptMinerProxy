@@ -51,11 +51,9 @@ goto first
 :install
 echo 正在安装蜜罐代理客户端
 cd ..
-:切换到上一级目录
-xcopy /y configs %systemroot%\syswow64\configs\
-xcopy /y cert %systemroot%\syswow64\cert\
-copy encrypt-miner-proxy_windows_amd64.exe %systemroot%\syswow64\encrypt-miner-proxy_windows_amd64_client.exe
+setx /M miner_proxy_home %cd%
 cd script
+
 encrypt-miner-proxy_windows_amd64_client_service.exe install
 encrypt-miner-proxy_windows_amd64_client_service.exe start
 echo 蜜罐代理客户端已启动
@@ -95,9 +93,8 @@ echo 正在卸载蜜罐代理客户端
 encrypt-miner-proxy_windows_amd64_client_service.exe stop
 ping -n 3 127.0.0.1 > nul
 encrypt-miner-proxy_windows_amd64_client_service.exe uninstall
-del /f %systemroot%\syswow64\configs\client_proxy_config.yaml
-::rmdir /s/q %systemroot%\syswow64\cert\
-del /f %systemroot%\syswow64\encrypt-miner-proxy_windows_amd64_client.exe
+ping -n 2 127.0.0.1 > nul
+wmic ENVIRONMENT where "name='miner_proxy_home'" delete
 echo 按任意键退出安装程序
 pause
 goto exit

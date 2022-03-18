@@ -1,0 +1,40 @@
+!!com.ryu.encrypt.miner.proxy.client.model.ClientProxyConfig
+clientLocal: 9r0Omq7KFoS7oEc5rvqTiA==
+clientProxy:
+- enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: jV5TcTZiySG/0uUaLP1HAg==
+  localPortAlias: KDMKPd+NGSM+/PzGjmnkQnqHDFeIcA+V8u8hEcJF708=
+  serverProxy: nRQfC0ixl1TyqZeOiBIgWjgJge5fb4x6en+ilMBkCp8=
+  serverProxyHost: null
+  serverProxyPort: null
+- enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: TZBo1lgeenyUln+daKXt5Q==
+  localPortAlias: ohDKBYkcZ7qDwpk0qBybYg==
+  serverProxy: rloDrSdqud80jQibi/YWmR9G/VwP1VURgGQu6oJpHVc=
+  serverProxyHost: null
+  serverProxyPort: null
+- enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: 3gbcUg4JJjkirLYTuzcbrQ==
+  localPortAlias: iEa5/HcDc2tNVDznUZhSZQ==
+  serverProxy: jr9HecE9e9bNeRWhw7NaSfmk7zVtM9aK4jIRMLHHHWI=
+  serverProxyHost: null
+  serverProxyPort: null
+- enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: pKaDke/gMBSVpCebX1UITw==
+  localPortAlias: UWz5NdpXJYlBa/l07xaZISvddec+47czT4Y+g9FtMhk=
+  serverProxy: lKszAqHAdmSg3COFOBcUE4B0bwzFgK2xocN0WrDB6rk=
+  serverProxyHost: null
+  serverProxyPort: null
+- enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: g49MCNUl8k1Z1eFCtqkgHA==
+  localPortAlias: UoljFfPuYySTtBDZ6OMBFQ==
+  serverProxy: iOUfgzqBy4NTuuJNo3CfNHTkqxk46aSfCetTv6nm1w4=
+  serverProxyHost: null
+  serverProxyPort: null
+confuse: 9r0Omq7KFoS7oEc5rvqTiA==
+enableClientProxy: []
+mode: 7Yzq/gOqhiLTi+DwLNTxdw==
+secretKey: ZwRnM9c7JdXzLX4+yVSYIzfTtmLrhVPkR/I0UhOw3cIuBjl0m6VBnUAetf56rDqu
+version: D3Dzs8BCKTjQBcFRpw1JvA==
+webLoginName: KHA4GWCGcFXfjnlWkDrEpQ==
+webPassword: za2Z6vD5+UT/JUDGfZAwl5PLXmmtf/2+JAR8VAsQnSw3DDjcxeSGhzSGWPk+0RBu
