@@ -25,7 +25,7 @@ install() {
     mkdir /root/encrypt_miner_proxy/configs
     mkdir /root/encrypt_miner_proxy/cert
 
-    echo "请选择版本(重新安装将覆盖configs下的配置文件)"
+    echo "请选择版本"
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     read -p "$(echo -e "请输入[1-2]：")" choose
@@ -63,9 +63,9 @@ install() {
     screen -r encrypt-miner-proxy -p 0 -X stuff $'\n'
     sleep 1s
 
-    echo "服务端代理开启的是29999端口，记得开放服务器安全组"
-	echo "WEB地址，外网-http://{公网IP}:29999/proxy/server/login"
-	echo "WEB地址，内网-http://127.0.0.1:29999/proxy/server/login"
+    echo "客户端代理开启的是19999端口，记得开放服务器安全组"
+	echo "WEB地址，外网-http://{公网IP}:19999/proxy/client/login"
+	echo "WEB地址，内网-http://127.0.0.1:19999/proxy/client/login"
 	echo "用户名：ryu"
 	echo "密码：https://github.com/ryu0007/EncryptMinerProxy"
 	echo "请及时修改您的用户名和密码，防止别人登入"
@@ -89,9 +89,9 @@ update() {
     if screen -list | grep -q "encrypt-miner-proxy"; then
         screen -X -S encrypt-miner-proxy quit
     fi 
-    rm -rf /root/encrypt-miner_proxy/encrypt-miner-proxy
+    rm -rf /root/encrypt_miner_proxy/encrypt-miner-proxy
     
-    echo "请选择版本-请提前保存/root/encrypt_miner_proxy/configs下的配置文件"
+    echo "请选择版本"
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     read -p "$(echo -e "请输入[1-2]：")" choose

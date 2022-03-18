@@ -25,7 +25,7 @@ install() {
     mkdir /root/encrypt_miner_proxy/configs
     mkdir /root/encrypt_miner_proxy/cert
 
-    echo "请选择版本(重新安装将覆盖configs下的配置文件)"
+    echo "请选择版本"
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     read -p "$(echo -e "请输入[1-2]：")" choose
@@ -86,12 +86,13 @@ uninstall() {
 }
 
 update() {
-    if screen -list | grep -q "encrypt-miner-proxy"; then
+	if screen -list | grep -q "encrypt-miner-proxy"; then
         screen -X -S encrypt-miner-proxy quit
-    fi 
-    rm -rf /root/encrypt-miner_proxy/encrypt-miner-proxy
+    fi
     
-    echo "请选择版本-请提前保存/root/encrypt_miner_proxy/configs下的配置文件"
+    rm -rf /root/encrypt_miner_proxy/encrypt-miner-proxy
+    
+    echo "请选择版本"
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     read -p "$(echo -e "请输入[1-2]：")" choose
