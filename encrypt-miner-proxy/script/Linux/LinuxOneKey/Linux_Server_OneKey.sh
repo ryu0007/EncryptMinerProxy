@@ -29,28 +29,36 @@ install() {
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     echo "  3、v2.0.2"
-    read -p "$(echo -e "请输入[1-3]：")" choose
+    echo "  4、v2.0.3"
+    read -p "$(echo -e "请输入[1-4]：")" choose
     case $choose in
     1)
         wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.0/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem	
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem	
         ;;
     2)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.1/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     3)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+        ;;
+    4)
+    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     *)
         echo "请输入正确的数字"
@@ -104,28 +112,36 @@ update() {
     echo "  1、v2.0.0"
     echo "  2、v2.0.1"
     echo "  3、v2.0.2"
-    read -p "$(echo -e "请输入[1-3]：")" choose
+    echo "  4、v2.0.3"
+    read -p "$(echo -e "请输入[1-4]：")" choose
     case $choose in
     1)
         wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.0/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem	
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.0/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem	
         ;;
     2)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.1/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.1/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     3)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-		wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
+        ;;
+    4)
+    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
+	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     *)
         echo "请输入正确的数字"

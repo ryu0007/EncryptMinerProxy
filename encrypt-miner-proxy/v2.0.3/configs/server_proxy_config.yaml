@@ -1,0 +1,61 @@
+!!com.ryu.encrypt.miner.proxy.server.model.userconf.ServerProxyConfig
+confuse: 9r0Omq7KFoS7oEc5rvqTiA==
+enableServerProxy: []
+minerDirectToServer: tccWrnbRj7ewMLNl9oVahA==
+mode: EW/4By3wLrF16VbzXXpaCw==
+secretKey: ZwRnM9c7JdXzLX4+yVSYIzfTtmLrhVPkR/I0UhOw3cIuBjl0m6VBnUAetf56rDqu
+serverProxy:
+- coin: sRqeC96xW5gI/sXLzPSZmg==
+  devFee: 4Q3ta+DxyX8vrH2Ta9ejhA==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: VlG3I1ubNSbgO/mBwi1rPXqxhJ0QsIsHb+MKK3SMEnRHg7oHp3/O20BoXPh7HlXG
+  devPoolHost: null
+  devPoolPort: null
+  devPoolSchema: null
+  devWallet: O1QGratGIJHfnj6DUgWcGA==
+  enable: tccWrnbRj7ewMLNl9oVahA==
+  localPort: bKQ0lZY76bZVc1/Oh+8qzw==
+  localPortAlias: BGKF0y32ZX8I38v6iyDe8D8OZAZB+KAMIRycmzROpEM=
+  localPortSSL: tccWrnbRj7ewMLNl9oVahA==
+  machine: sA3fJhT/1L7TQd+UvdxOsw==
+  poolServer: VlG3I1ubNSbgO/mBwi1rPXqxhJ0QsIsHb+MKK3SMEnRHg7oHp3/O20BoXPh7HlXG
+  poolServerHost: null
+  poolServerPort: null
+  poolServerSchema: null
+- coin: AMJqusM9exWvY/0yJ6Sniw==
+  devFee: 4Q3ta+DxyX8vrH2Ta9ejhA==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: P1NX8l3BsOq2hYHAwZ+fNuqPu+d5m6K3Jt9eUCRj5CnFPTjgB7wDsZje2vRBvGsR
+  devPoolHost: null
+  devPoolPort: null
+  devPoolSchema: null
+  devWallet: O1QGratGIJHfnj6DUgWcGA==
+  enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: Qk9s5vljtOm5sSXIDuSWWA==
+  localPortAlias: jCbovqDbM5N/oLB2KOyT+w==
+  localPortSSL: tccWrnbRj7ewMLNl9oVahA==
+  machine: WNySricJozUG99tm28O63w==
+  poolServer: P1NX8l3BsOq2hYHAwZ+fNuqPu+d5m6K3Jt9eUCRj5CnFPTjgB7wDsZje2vRBvGsR
+  poolServerHost: null
+  poolServerPort: null
+  poolServerSchema: null
+- coin: AMJqusM9exWvY/0yJ6Sniw==
+  devFee: 4Q3ta+DxyX8vrH2Ta9ejhA==
+  devMiner: RZRVLitXcXMbhlvD3BS+yQ==
+  devPool: P1NX8l3BsOq2hYHAwZ+fNuqPu+d5m6K3Jt9eUCRj5CnFPTjgB7wDsZje2vRBvGsR
+  devPoolHost: null
+  devPoolPort: null
+  devPoolSchema: null
+  devWallet: O1QGratGIJHfnj6DUgWcGA==
+  enable: 9r0Omq7KFoS7oEc5rvqTiA==
+  localPort: 7Pm9e29QoIcQlglT/4wZeQ==
+  localPortAlias: 7Pm9e29QoIcQlglT/4wZeQ==
+  localPortSSL: tccWrnbRj7ewMLNl9oVahA==
+  machine: WNySricJozUG99tm28O63w==
+  poolServer: mUzAWIKdbBpL+tAYGN89eFCV/om7Ikl5W1L2CO2GA/2fCOC6ly3nv70leZn9EX76
+  poolServerHost: null
+  poolServerPort: null
+  poolServerSchema: null
+version: D3Dzs8BCKTjQBcFRpw1JvA==
+webLoginName: KHA4GWCGcFXfjnlWkDrEpQ==
+webPassword: za2Z6vD5+UT/JUDGfZAwl5PLXmmtf/2+JAR8VAsQnSw3DDjcxeSGhzSGWPk+0RBu
