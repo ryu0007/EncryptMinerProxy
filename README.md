@@ -24,11 +24,11 @@
 
 ## :sparkles: 特性
 
-- 💾 安全稳定：客户端服务端模式(也可单独服务端模式)，加密混淆
+- 📚 转发抽水基于Netty(Java技术栈高性能框架)+C技术开发，WEB服务基于SpringBoot技术开发
+- 💾 安全稳定：客户端+服务端模式(也可单独服务端模式)，客户端加密混淆、服务端解密解混淆
 - :cloud: 全币种支持
 - :zap: 性能强劲，CPU占用低
 - 💻 可以自定义抽水比例
-- 📚 可以自定义抽水算法
 - :outbox_tray: WEB管理，清晰明了
 - :rocket: 开箱即用：All-In-One 打包，一键搭建运行
 - :family_woman_girl_boy: 支持Liunx Windows
@@ -125,7 +125,7 @@
 ### Windows一键安装脚本
 
 #### 安装服务端代理
-1、双击Windows_Server_Run.bat，弹出对话框，按任意键
+1、双击Windows_Server_OneKey.bat，弹出对话框，按任意键
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>
@@ -144,7 +144,7 @@
 </h1>
 
 #### 安装客户端代理
-1、双击Windows_Client_Run.bat，弹出对话框，按任意键
+1、双击Windows_Client_OneKey.bat，弹出对话框，按任意键
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AD%A5%E9%AA%A41.jpg" width="600"/>

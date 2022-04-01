@@ -152,7 +152,7 @@ update() {
 
     screen -dmS encrypt-miner-proxy
     sleep 0.2s
-    screen -r encrypt-miner-proxy -p 0 -X stuff "cd /root/encrypt-miner_proxy"
+    screen -r encrypt-miner-proxy -p 0 -X stuff "cd /root/encrypt_miner_proxy"
     screen -r encrypt-miner-proxy -p 0 -X stuff $'\n'
     screen -r encrypt-miner-proxy -p 0 -X stuff "./Server_Run.sh"
     screen -r encrypt-miner-proxy -p 0 -X stuff $'\n'
@@ -173,7 +173,7 @@ start() {
     fi
     screen -dmS encrypt-miner-proxy
     sleep 0.2s
-    screen -r encrypt-miner-proxy -p 0 -X stuff "cd /root/encrypt-miner_proxy"
+    screen -r encrypt-miner-proxy -p 0 -X stuff "cd /root/encrypt_miner_proxy"
     screen -r encrypt-miner-proxy -p 0 -X stuff $'\n'
     screen -r encrypt-miner-proxy -p 0 -X stuff "./Server_Run.sh"
     screen -r encrypt-miner-proxy -p 0 -X stuff $'\n'

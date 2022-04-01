@@ -46,9 +46,15 @@ goto first
 :install
 echo 正在安装代理客户端
 cd ..
-setx /M miner_proxy_home %cd%
-cd script
+ping -n 3 127.0.0.1 > nul
+echo 添加 MINER_PROXY_HOME 环境变量
+set regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+set evname=MINER_PROXY_HOME
+set proxypath=%cd%
+reg add "%regpath%" /v %evname% /d %proxypath% /f
 
+cd script
+ping -n 3 127.0.0.1 > nul
 encrypt-miner-proxy_windows_amd64_client_service.exe install
 encrypt-miner-proxy_windows_amd64_client_service.exe start
 echo 请按5检查程序是否启动成功，如果未启动成功可能缺少微软运行库
@@ -92,7 +98,11 @@ encrypt-miner-proxy_windows_amd64_client_service.exe stop
 ping -n 3 127.0.0.1 > nul
 encrypt-miner-proxy_windows_amd64_client_service.exe uninstall
 ping -n 2 127.0.0.1 > nul
-wmic ENVIRONMENT where "name='miner_proxy_home'" delete
+echo 删除 MINER_PROXY_HOME 环境变量
+set regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+set evname=MINER_PROXY_HOME
+reg delete "%regpath%" /v "%evname%"  /f
+
 echo 按任意键退出安装程序
 pause
 goto exit
