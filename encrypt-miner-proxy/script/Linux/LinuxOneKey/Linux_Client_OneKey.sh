@@ -54,7 +54,7 @@ install() {
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     4)
-    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_linux_client_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
+    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_client_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
@@ -133,7 +133,7 @@ update() {
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     4)
-    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_linux_client_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
+    	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v2.0.3/encrypt-miner-proxy_client_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml		
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v2.0.3/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
