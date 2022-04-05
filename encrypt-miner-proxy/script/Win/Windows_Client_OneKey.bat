@@ -1,5 +1,5 @@
 @echo OFF
-title encrypt-miner-proxy window client onekey setup
+title encrypt-miner-proxy_client window onekey setup
 mode con cols=70 lines=12
 color fc
 echo **********************************************************************
@@ -46,17 +46,17 @@ goto first
 :install
 echo 正在安装代理客户端
 cd ..
-ping -n 3 127.0.0.1 > nul
-echo 添加 MINER_PROXY_HOME 环境变量
-set regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
-set evname=MINER_PROXY_HOME
-set proxypath=%cd%
-reg add "%regpath%" /v %evname% /d %proxypath% /f
-
+:切换到上一级目录
+xcopy /y configs %systemroot%\syswow64\configs\
+xcopy /y cert %systemroot%\syswow64\cert\
+::从备份目录中将配置文件覆盖
+if exist %systemroot%\syswow64\configs_bak (
+	xcopy /y /e %systemroot%\syswow64\configs_bak\ %systemroot%\syswow64\configs\
+)
+copy encrypt-miner-proxy_client_windows_amd64.exe %systemroot%\syswow64\encrypt-miner-proxy_client_windows_amd64.exe
 cd script
-ping -n 3 127.0.0.1 > nul
-encrypt-miner-proxy_windows_amd64_client_service.exe install
-encrypt-miner-proxy_windows_amd64_client_service.exe start
+encrypt-miner-proxy_client_windows_amd64_service.exe install
+encrypt-miner-proxy_client_windows_amd64_service.exe start
 echo 请按5检查程序是否启动成功，如果未启动成功可能缺少微软运行库
 pause
 cls
@@ -64,7 +64,7 @@ goto first
 
 :start
 echo 正在启用代理客户端
-encrypt-miner-proxy_windows_amd64_client_service.exe START
+encrypt-miner-proxy_client_windows_amd64_service.exe start
 echo 请按5检查程序是否启动成功，如果未启动成功可能缺少微软运行库
 pause
 cls
@@ -72,37 +72,37 @@ goto first
 
 :restart
 echo 正在重启代理客户端
-encrypt-miner-proxy_windows_amd64_client_service.exe restart
-echo 请按5检查代理是否启动成功，如果未启动成功可能缺少微软运行库
+encrypt-miner-proxy_client_windows_amd64_service.exe restart
+echo 请按5检查程序是否启动成功，如果未启动成功可能缺少微软运行库
 pause
 cls
 goto first
 
 :stop
 echo 正在停用代理客户端
-encrypt-miner-proxy_windows_amd64_client_service.exe stop
+encrypt-miner-proxy_client_windows_amd64_service.exe stop
 pause
 cls
 goto first
 
 :status
 echo 正在检查状态
-encrypt-miner-proxy_windows_amd64_client_service.exe status
+encrypt-miner-proxy_client_windows_amd64_service.exe status
 pause
 cls
 goto first
 
 :uninstall
 echo 正在卸载代理客户端
-encrypt-miner-proxy_windows_amd64_client_service.exe stop
+encrypt-miner-proxy_client_windows_amd64_service.exe stop
 ping -n 3 127.0.0.1 > nul
-encrypt-miner-proxy_windows_amd64_client_service.exe uninstall
-ping -n 2 127.0.0.1 > nul
-echo 删除 MINER_PROXY_HOME 环境变量
-set regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
-set evname=MINER_PROXY_HOME
-reg delete "%regpath%" /v "%evname%"  /f
-
+encrypt-miner-proxy_client_windows_amd64_service.exe uninstall
+::备份配置文件
+xcopy /y /s /e %systemroot%\syswow64\configs\client_proxy_config.yaml %systemroot%\syswow64\configs_bak\
+del /f %systemroot%\syswow64\configs\client_proxy_config.yaml
+del /f %systemroot%\syswow64\configs\client_sync_proxy_config.yaml
+rmdir /s/q %systemroot%\syswow64\cert\
+del /f %systemroot%\syswow64\encrypt-miner-proxy_client_windows_amd64.exe
 echo 按任意键退出安装程序
 pause
 goto exit
