@@ -6,8 +6,8 @@ echo **********************************************************************
 echo  请先下载转发主程序https://github.com/ryu0007/EncryptMinerProxy
 echo              本脚本仅支持encrypt-miner-proxy_windows_amd64.exe
 
-echo   登录地址(本地)-http://127.0.0.1:29999/proxy/server/login
-echo   登录地址(外网)-http://{公网IP}:29999/proxy/server/login
+echo   登录地址(本地)-http://127.0.0.1:29999/server/login
+echo   登录地址(外网)-http://{公网IP}:29999/server/login
 echo   用户名-ryu
 echo   密码-https://github.com/ryu0007/EncryptMinerProxy
 echo **********************************************************************
