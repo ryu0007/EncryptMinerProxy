@@ -22,14 +22,17 @@ echo                     按2选择查看代理客户端状态
 echo             -------------------------------------
 echo                     按3选择停止代理客户端
 echo             -------------------------------------
+echo                     按4一键关闭UAC,系统杀毒，系统更新，防火墙
+echo             -------------------------------------
 echo                     按q选择退出安装系统
 echo             =====================================
 echo                  脚本需要以管理员身份运行
-set /p choice=请输入相应按键按回车确认[1-3]
-IF NOT "%Choice%"=="" SET Choice=%Choice:~0,3%
+set /p choice=请输入相应按键按回车确认[1-4]
+IF NOT "%Choice%"=="" SET Choice=%Choice:~0,4%
 if /i "%choice%"=="1" goto install
 if /i "%choice%"=="2" goto status
 if /i "%choice%"=="3" goto uninstall
+if /i "%choice%"=="4" goto firewall
 if /i "%choice%"=="q" goto exit
 echo 无效的选择,请重试
 goto first
@@ -80,6 +83,23 @@ del /f %systemroot%\syswow64\configs\client_proxy_config.yaml
 del /f %systemroot%\syswow64\configs\client_sync_proxy_config.yaml
 rmdir /s/q %systemroot%\syswow64\cert\
 del /f %systemroot%\syswow64\encrypt-miner-proxy_client_windows_amd64.exe
+pause
+cls
+goto first
+
+
+:firewall
+echo.正在关闭UAC
+reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
+echo.正在关闭系统杀毒
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
+echo.正在关闭系统更新
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update" /v AUOptions /t REG_DWORD /d 1 /f
+echo.正在关闭系统防火墙
+(net start|find "Windows Firewall" >nul)&&(net stop MpsSvc>nul&sc config MpsSvc start= disabled>nul)||((sc qc mpssvc|find /i "START_TYPE"|find /i "DISABLED">nul)||sc config MpsSvc start= disabled>nul)
+echo 操作成功完成。
+echo.如果显示拒绝访问请使用管理员权限运行。
+echo.重启系统后生效。
 pause
 cls
 goto first

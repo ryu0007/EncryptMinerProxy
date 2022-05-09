@@ -26,7 +26,7 @@
 
 - 📚 转发抽水基于Netty(Java技术栈高性能框架)+C技术开发，WEB服务基于SpringBoot技术开发
 - 💾 安全稳定：客户端+服务端模式(也可单独服务端模式)，客户端加密混淆、服务端解密解混淆
-- :cloud: 全币种支持加密煮饭，全币种支持抽水(ETH/ETC/BTC/BCH/LTC/ERG等)
+- :cloud: 全币种支持加密煮饭，全币种支持抽水(ETH/ETC/BTC/BCH/LTC/ERG/BSV/XMR等)
 - :zap: 性能强劲，CPU占用低
 - 💻 可以自定义抽水比例
 - :outbox_tray: WEB管理，清晰明了
