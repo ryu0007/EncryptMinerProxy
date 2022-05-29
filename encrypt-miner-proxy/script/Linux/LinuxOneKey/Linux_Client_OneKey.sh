@@ -32,8 +32,8 @@ install() {
     case $choose in
     1)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_client_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml
         if [ -f "/root/configs_bak/client_proxy_config.yaml" ]; then
         	cp -rf /root/configs_bak/* /root/encrypt_miner_proxy/configs/
         	echo "还原原有配置成功"
@@ -43,8 +43,8 @@ install() {
         ;;
     2)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_client_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client/client_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_proxy_config.yaml
         if [ -f "/root/configs_bak/client_proxy_config.yaml" ]; then
         	cp -rf /root/configs_bak/* /root/encrypt_miner_proxy/configs/
         	echo "还原原有配置成功"
