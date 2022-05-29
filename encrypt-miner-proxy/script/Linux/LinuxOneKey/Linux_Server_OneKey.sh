@@ -33,14 +33,26 @@ install() {
     1)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
+
+        if [ -f "/root/configs_bak/server_proxy_config.yaml" ]; then
+        	cp -rf /root/configs_bak/* /root/encrypt_miner_proxy/configs/
+        	echo "还原原有配置成功"
+    	fi
+        		
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     2)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
         wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
+        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml
+
+        if [ -f "/root/configs_bak/server_proxy_config.yaml" ]; then
+        	cp -rf /root/configs_bak/* /root/encrypt_miner_proxy/configs/
+        	echo "还原原有配置成功"
+    	fi
+    			
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
 	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
@@ -79,6 +91,17 @@ uninstall() {
     else
         if [ "$flag" = "yes" -o "$flag" = "ye" -o "$flag" = "y" ]; then
             screen -X -S encrypt-miner-proxy quit
+
+            if [ -d "/root/configs_bak" ]; then
+		        echo "配置备份目录已经存在"
+			else
+				mkdir /root/configs_bak
+				echo "创建配置备份目录"
+		    fi
+	    
+            cp -rf /root/encrypt_miner_proxy/configs/* /root/configs_bak/
+            echo "备份用户自定义配置成功"
+            
             rm -rf /root/encrypt_miner_proxy
             echo "卸载encrypt-miner-proxy成功"
         fi
@@ -99,17 +122,9 @@ update() {
     case $choose in
     1)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
-	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     2)
     	wget https://github.com/ryu0007/EncryptMinerProxy/blob/main/encrypt-miner-proxy/v3.0.2/encrypt-miner-proxy_linux_amd64?raw=true -O /root/encrypt_miner_proxy/encrypt-miner-proxy
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/server_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/server_proxy_config.yaml
-        wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/configs/client_sync_proxy_config.yaml -O /root/encrypt_miner_proxy/configs/client_sync_proxy_config.yaml		
-	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/cert.pem -O /root/encrypt_miner_proxy/cert/cert.pem
-	wget https://raw.githubusercontent.com/ryu0007/EncryptMinerProxy/main/encrypt-miner-proxy/v3.0.2/cert/key.pem -O /root/encrypt_miner_proxy/cert/key.pem
         ;;
     *)
         echo "请输入正确的数字"
